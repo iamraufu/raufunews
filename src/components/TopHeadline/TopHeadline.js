@@ -8,7 +8,7 @@ const TopHeadline = () => {
             fetch(url)
                   .then(response => response.json())
                   .then(data => setArticles(data.articles));
-      })
+      },[])
       return (
             <div>
                   <h1>Top Headlines: {articles.length}</h1>
