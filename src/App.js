@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
-// import News from './components/News/News';
+import News from './components/News/News';
 import TopHeadline from './components/TopHeadline/TopHeadline';
 
 
@@ -12,7 +12,7 @@ function App() {
       <Header></Header>
       </header>
       <TopHeadline></TopHeadline>
-      {/* <News></News> */}
+      <News></News>
     </div>
   );
 }
